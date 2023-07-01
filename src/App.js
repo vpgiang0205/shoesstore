@@ -1,13 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import ShoesStore from './components/ShoesStore';
-import ProductList from './components/ProductList';
-
+import ShoesShop from './components/ShoesShop';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 function App() {
   return (
     <div className="App">
-      <ShoesStore>
-      </ ShoesStore >
+    <ShoesShop />    
     </div>
   );
 }
